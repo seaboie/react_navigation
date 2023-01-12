@@ -1,3 +1,4 @@
+
 export const sliderData = [
   {
     title: 'First Game',

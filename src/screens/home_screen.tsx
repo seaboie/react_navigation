@@ -1,11 +1,26 @@
-import React, { Fragment } from "react";
-import { ImageBackground, ScrollView, StatusBar, Text, TextInput, Touchable, TouchableHighlight, View } from 'react-native';
+import React, { Fragment, useState } from "react";
+import { Dimensions, ImageBackground, ScrollView, StatusBar, Text, TextInput, Touchable, TouchableHighlight, View } from 'react-native';
 import { SafeAreaView } from "react-native-safe-area-context";
 import { HomeProps } from "../type/type_root_stack_param_list";
 import { SearchIcon } from "../utils/import/import_example";
 import { colors, gbs, sc } from "../utils/import/import_options";
+import Carousel from "react-native-snap-carousel";
+import { sliderData } from "../model/data";
+import BannerSlider from "./components/banner_slider";
+import CustomButtonSwitch from "./components/custom_button_switch";
 
 const HomeScreen = ({ navigation, route }: HomeProps) => {
+
+    const [gameTab, setGameTab] = useState(1);
+
+    const renderBanner = ({item, index}) => {
+        return (
+            <BannerSlider  data={item} />
+        );
+    }
+    const onSelectSwitch = () => {
+
+    }
     return (
         <Fragment>
             <SafeAreaView style={{ flex: 1, backgroundColor: '#fff' }}>
@@ -39,6 +54,22 @@ const HomeScreen = ({ navigation, route }: HomeProps) => {
                                  <Text style= {[gbs.body, {color: "#0AADA8"}]}>See All...</Text>
                              </TouchableHighlight>
                          </View>
+                         
+                         <Carousel 
+                            // ref={(c) => { this._carousel = c; }}
+                            data={sliderData}
+                            renderItem={renderBanner}
+                            sliderWidth={Dimensions.get("window").width}
+                            itemWidth={300}
+                            loop={true}
+                         />
+
+                         {/* <CustomButtonSwitch  
+                            selectionMode={1}
+                            option1={"Free to play"}
+                            option2={"Paid Games"}
+                            onSelectSwitch={() => {}}
+                         /> */}
 
                     </ScrollView>
 
