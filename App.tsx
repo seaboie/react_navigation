@@ -11,9 +11,9 @@ const RootStack = createNativeStackNavigator<RootStackParamList>();
 const App = () => {
   return (  
     <NavigationContainer>
-      <RootStack.Navigator initialRouteName="Main">
+      <RootStack.Navigator initialRouteName="Home">
         <RootStack.Screen name="Main" component={MainScreen} options={{headerShown: false}} />
-        <RootStack.Screen name="Home" component={HomeScreen} />
+        <RootStack.Screen name="Home" component={HomeScreen} options={{headerShown: false}} />
       </RootStack.Navigator>
     </NavigationContainer>
   );
