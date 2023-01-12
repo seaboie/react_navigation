@@ -1,20 +1,20 @@
 import React from "react";
-import { Text ,View} from 'react-native';
 
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import HomeScreen from "./src/screens/home_screen";
 import MainScreen from "./src/screens/main_screen";
+import { RootStackParamList } from "./src/type/type_root_stack_param_list";
 
-const Stack = createNativeStackNavigator();
+const RootStack = createNativeStackNavigator<RootStackParamList>();
 
 const App = () => {
   return (  
     <NavigationContainer>
-      <Stack.Navigator>
-        <Stack.Screen name="Main" component={MainScreen} />
-        <Stack.Screen name="Home" component={HomeScreen} />
-      </Stack.Navigator>
+      <RootStack.Navigator initialRouteName="Main">
+        <RootStack.Screen name="Main" component={MainScreen} options={{headerShown: false}} />
+        <RootStack.Screen name="Home" component={HomeScreen} />
+      </RootStack.Navigator>
     </NavigationContainer>
   );
 }
