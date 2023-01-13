@@ -35,7 +35,7 @@ const HomeScreen = ({ navigation, route }: HomeProps) => {
 
                             <TouchableOpacity onPress={() => navigation.goBack()}>
                                 <ImageBackground
-                                    source={require("../assets/images/user-profile.jpg")}
+                                    source={require("../../assets/images/user-profile.jpg")}
                                     style={{ height: '80%', aspectRatio: 0.8 }}
                                     imageStyle={{ borderRadius: 200, alignSelf: 'center' }}
                                 />
