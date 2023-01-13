@@ -8,7 +8,7 @@ import { gbs, sc } from "../utils/import/import_options";
 const MainScreen = ({navigation, route}: MainProps) => {
 
     const goToHomeScreen = () => {
-        navigation.navigate("Home");
+        navigation.navigate("Login");
     };
 
     return (
