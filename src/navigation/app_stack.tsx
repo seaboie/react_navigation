@@ -3,14 +3,16 @@ import React from "react";
 import { Text ,View} from 'react-native';
 import HomeScreen from "../screens/home_screen";
 import { AppStackParamList } from "../type/type_root_stack_param_list";
+import { createDrawerNavigator } from "@react-navigation/drawer";
 
-const Stack = createNativeStackNavigator<AppStackParamList>();
+
+const Drawer = createDrawerNavigator<AppStackParamList>();
 
 const AppStack = () => {
   return (  
-     <Stack.Navigator screenOptions={{headerShown: false}}>
-      <Stack.Screen name="Home" component={HomeScreen} />
-     </Stack.Navigator>
+     <Drawer.Navigator screenOptions={{headerShown: false}}>
+      <Drawer.Screen name="Home" component={HomeScreen} />
+     </Drawer.Navigator>
   );
 }
 
