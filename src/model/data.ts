@@ -1,5 +1,15 @@
+import { DataProp } from "../screens/components/banner_slider";
 
-export const sliderData = [
+export type PlanGame = {
+  poster: any,
+  title: string,
+  subtitle: string,
+  isFree: string,
+  price?: string | undefined,
+  id?: string | undefined
+}
+
+export const sliderData: DataProp[] = [
   {
     title: 'First Game',
     image: require('../assets/images/homescreen/game-1.jpeg'),
@@ -14,7 +24,7 @@ export const sliderData = [
   },
 ];
 
-export const paidGames = [
+export const paidGames: PlanGame[] = [
   {
     poster: require('../assets/images/spiderman.webp'),
     title: 'Spider-Man',
@@ -65,7 +75,7 @@ export const paidGames = [
   },
 ];
 
-export const freeGames = [
+export const freeGames: PlanGame[] = [
   {
     poster: require('../assets/images/Altos-Odyssey.jpeg'),
     title: 'Altos Odyssey',
@@ -105,7 +115,7 @@ export const freeGames = [
     poster: require('../assets/images/diablo-4.jpeg'),
     title: 'Diablo 4',
     subtitle: 'Blizzard Entertainment',
-    isFree: 'No',
+    isFree: 'Yes',
     id: '6',
   },
 ];

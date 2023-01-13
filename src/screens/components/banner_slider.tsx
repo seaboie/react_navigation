@@ -1,9 +1,17 @@
 import React from "react";
 import { Image, Text ,View} from 'react-native';
 
+export type DataProp = {
+  title: string,
+  image: any
+};
+
+export type BannerSliderProp = {
+  data: DataProp
+}
 
 
-const BannerSlider = ({data}) => {
+const BannerSlider = ({data}: BannerSliderProp) => {
   return (  
      <View style={[]} > 
       <Image 

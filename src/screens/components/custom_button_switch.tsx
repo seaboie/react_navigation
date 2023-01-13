@@ -4,44 +4,50 @@ import { gbs, sc } from "../../utils/import/import_options";
 
 type CustomButtonSwitchProps = {
     selectionMode: number,
-    option1: string,
-    option2: string,
-    onSelectSwitch(): void
+    titleButtonLeft: string,
+    titleButtonRight: string,
+    onSelectSwitch(value: number): void
 }
 
-const CustomButtonSwitch = ({ selectionMode, option1, option2, onSelectSwitch }: CustomButtonSwitchProps) => {
+const CustomButtonSwitch = ({ selectionMode, titleButtonLeft, titleButtonRight, onSelectSwitch }: CustomButtonSwitchProps) => {
 
     const [getSelectionMode, setGetSelectionMode] = useState(selectionMode);
     const updateSwitchButton = (value: number) => {
         setGetSelectionMode(value);
-        onSelectSwitch();
+        onSelectSwitch(value);
     }
 
     return (
-        <View style={[{flexDirection: 'row', justifyContent: 'center', height: sc.buttonHeight, backgroundColor: '#E4E4E4', borderRadius: sc.padMin, borderColor: '#AD40AF'}]} >
+        <View style={[{ flexDirection: 'row', justifyContent: 'center', height: sc.buttonBottomBarHeight * 0.8, width: '70%', alignSelf: 'center', backgroundColor: '#E4E4E4', borderRadius: sc.padMin, borderColor: '#AD40AF' }]} >
             <TouchableOpacity
                 activeOpacity={1}
-                onPress={() => {updateSwitchButton(1)}}
+                onPress={() => { updateSwitchButton(1) }}
                 style={{
                     flex: 1,
+                    justifyContent: "center",
+                    alignItems: 'center',
+                    borderRadius: sc.padMin,
                     backgroundColor: getSelectionMode === 1 ? '#AD40AF' : '#E4E4E4'
                 }}
             >
-                 <Text style= {[gbs.body, {
+                <Text style={[gbs.title, {
                     color: getSelectionMode === 1 ? '#fff' : '#AD40AF'
-                 }]}>{option1}</Text>
+                }]}>{titleButtonLeft}</Text>
             </TouchableOpacity>
             <TouchableOpacity
                 activeOpacity={1}
-                onPress={() => {updateSwitchButton(2)}}
+                onPress={() => { updateSwitchButton(2) }}
                 style={{
                     flex: 1,
+                    justifyContent: "center",
+                    alignItems: 'center',
+                    borderRadius: sc.padMin,
                     backgroundColor: getSelectionMode === 2 ? '#AD40AF' : '#E4E4E4'
                 }}
             >
-                 <Text style= {[gbs.body, {
+                <Text style={[gbs.title, {
                     color: getSelectionMode === 2 ? '#fff' : '#AD40AF'
-                 }]}>{option2}</Text>
+                }]}>{titleButtonRight}</Text>
             </TouchableOpacity>
         </View>
     );
