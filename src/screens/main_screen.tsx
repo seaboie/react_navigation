@@ -13,9 +13,9 @@ const MainScreen = ({navigation, route}: MainProps) => {
 
     return (
         <Fragment>
-          <SafeAreaView style={{ flex: 0, backgroundColor: '#fff' }} />
-          <SafeAreaView style={{ flex: 1, backgroundColor: '#fff' }}>
-            <StatusBar barStyle="dark-content" backgroundColor={"#fff"} />
+          {/* <SafeAreaView style={{ flex: 0, backgroundColor: '#fff' }} /> */}
+          <SafeAreaView style={{ flex: 1, backgroundColor: '' }}>
+            {/* <StatusBar barStyle="dark-content" backgroundColor={""} /> */}
             <View style={[gbs.center, { flex: 1, backgroundColor: '#fff', paddingHorizontal: sc.padMax }]}>
               <Text style={[gbs.head5Tri, { color: '#20315f' }]}>GAMEON</Text>
     
