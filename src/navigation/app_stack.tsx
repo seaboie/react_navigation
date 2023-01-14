@@ -25,6 +25,7 @@ const AppStack = () => {
           drawerLabelStyle: {marginLeft: -sc.body, fontSize: sc.body, fontFamily: "Trirong-MediumItalic"},
           drawerActiveBackgroundColor: "#AA18EA",
           drawerHideStatusBarOnOpen: true,
+          
           drawerActiveTintColor: "#fff",
         }} >
       <Drawer.Screen name="Home" component={HomeScreen} options={{

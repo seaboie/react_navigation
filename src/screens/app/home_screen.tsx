@@ -1,6 +1,6 @@
 import React, { Fragment, useState } from "react";
 import { Dimensions, ImageBackground, ScrollView, StatusBar, Text, TextInput, Touchable, TouchableHighlight, TouchableOpacity, View } from 'react-native';
-import { SafeAreaView } from "react-native-safe-area-context";
+import { SafeAreaView, useSafeAreaInsets } from "react-native-safe-area-context";
 import { HomeProps } from "../../type/type_root_stack_param_list";
 import { SearchIcon } from "../../utils/import/import_example";
 import { colors, gbs, sc } from "../../utils/import/import_options";
@@ -10,6 +10,7 @@ import BannerSlider, { BannerSliderProp, DataProp } from "../components/banner_s
 import CustomButtonSwitch from "../components/custom_button_switch";
 import SpacerTitle from "../../components/spacer/spacer_title";
 import ListItem from "../components/list_item";
+import { DrawerActions } from "@react-navigation/native";
 
 const HomeScreen = ({ navigation, route }: HomeProps) => {
 
@@ -23,17 +24,18 @@ const HomeScreen = ({ navigation, route }: HomeProps) => {
     const onSelectSwitch = (value: number) => {
         setGameTab(value);
     }
-    return (
-        <View style={[{ flex: 1 }]}>
-            <SafeAreaView style={{ flex: 1, backgroundColor: '#fff' }}>
-                <StatusBar barStyle="dark-content" backgroundColor={"#fff"} />
-                <View style={[{ flex: 1, backgroundColor: '#fff', paddingHorizontal: sc.padMid }]}>
 
-                    <ScrollView showsVerticalScrollIndicator={false} style={{ flexGrow: 1 }}>
+    const insets = useSafeAreaInsets();
+    return (
+                
+                <View style={[{ flex: 1, backgroundColor: '#fff', paddingTop: insets.top }]}>
+                    <StatusBar barStyle="dark-content" backgroundColor={"#fff"} />
+
+                    <ScrollView showsVerticalScrollIndicator={false} style={{ flexGrow: 1, paddingHorizontal: sc.padMid }}>
                         <View style={[{ height: sc.breadcrumbHeight * 1.5, flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }]}>
                             <Text style={[gbs.head2, { color: "black" }]}>Hello John Doe</Text>
 
-                            <TouchableOpacity onPress={() => navigation.goBack()}>
+                            <TouchableOpacity onPress={() => navigation.dispatch(DrawerActions.openDrawer())}>
                                 <ImageBackground
                                     source={require("../../assets/images/user-profile.jpg")}
                                     style={{ height: '80%', aspectRatio: 0.8 }}
@@ -105,8 +107,6 @@ const HomeScreen = ({ navigation, route }: HomeProps) => {
                     </ScrollView>
 
                 </View>
-            </SafeAreaView>
-        </View>
     );
 }
 

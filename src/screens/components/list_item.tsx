@@ -7,7 +7,7 @@ import { colors, gbs, sc } from "../../utils/import/import_options";
 
 const ListItem = (plan: PlanGame) => {
     return (
-        <View style={[{ height: sc.buttonHeight, flexDirection: 'row', alignItems: 'center', marginBottom: sc.body }]}>
+        <View style={[{ height: sc.buttonHeight, flexDirection: 'row', alignItems: 'center', marginBottom: sc.head5 }]}>
             <View style={[{ flex: 3 }]}>
                 <Image
                     source={plan.poster}
