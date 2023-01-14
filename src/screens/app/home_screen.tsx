@@ -28,7 +28,7 @@ const HomeScreen = ({ navigation, route }: HomeProps) => {
     const insets = useSafeAreaInsets();
     return (
                 
-                <View style={[{ flex: 1, backgroundColor: '#fff', paddingTop: insets.top }]}>
+                <View style={[{ flexGrow: 1, backgroundColor: '#fff', paddingTop: insets.top }]}>
                     <StatusBar barStyle="dark-content" backgroundColor={"#fff"} />
 
                     <ScrollView showsVerticalScrollIndicator={false} style={{ flexGrow: 1, paddingHorizontal: sc.padMid }}>

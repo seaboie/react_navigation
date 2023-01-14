@@ -14,4 +14,11 @@ import ChatBoxIcon from "../../assets/svg/examples/drawer/chatbox.svg";
 import MomentIcon from "../../assets/svg/examples/drawer/moment.svg";
 import SettingIcon from "../../assets/svg/examples/drawer/settings.svg";
 
-export { ChevronLeftIcon, ChevronRightIcon, GamingImageIcon, SearchIcon, CoinIcon, CoinsIcon, HomeIcon, PersonIcon, ChatBoxIcon, MomentIcon, SettingIcon, SocialShareIcon, SignOutIcon};
+import HomeOutlineIcon from "../../assets/svg/tabbar/home-outline.svg";
+
+
+// TabBar
+import ShoppingBagIcon from "../../assets/svg/tabbar/shopping-bag.svg";
+import FavoriteIcon from "../../assets/svg/tabbar/favorite-heart.svg";
+
+export { ChevronLeftIcon, ChevronRightIcon, GamingImageIcon, SearchIcon, CoinIcon, CoinsIcon, HomeIcon, PersonIcon, ChatBoxIcon, MomentIcon, SettingIcon, SocialShareIcon, SignOutIcon, ShoppingBagIcon, HomeOutlineIcon, FavoriteIcon};
