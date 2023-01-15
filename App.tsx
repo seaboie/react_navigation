@@ -9,7 +9,7 @@ const App = () => {
        <SafeAreaView style={{ flex: 1, backgroundColor: '' }}>
          <StatusBar barStyle="dark-content" backgroundColor={"white"}/>
          <View style={[gbs.center, { flex: 1, backgroundColor: '' }]}>
-           
+            <Text style= {[{fontSize: 90}]}>Boie</Text>
          </View>
        </SafeAreaView>
      </Fragment>

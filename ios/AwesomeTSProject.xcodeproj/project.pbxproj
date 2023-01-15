@@ -8,36 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* AwesomeTSProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AwesomeTSProjectTests.m */; };
+		050AC6BC3F844A0985AC9834 /* Trirong-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE64C4CBF8CC4348A70BF498 /* Trirong-ExtraBold.ttf */; };
 		0C80B921A6F3F58F76C31292 /* libPods-AwesomeTSProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-AwesomeTSProject.a */; };
+		1004CE2B1CEA432BBC39D275 /* Mitr-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B21DDD89BC5B45A9BD7232E0 /* Mitr-SemiBold.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7699B88040F8A987B510C191 /* libPods-AwesomeTSProject-AwesomeTSProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-AwesomeTSProject-AwesomeTSProjectTests.a */; };
-		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		E5ECBF56D42A43928F163CB5 /* Mitr-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 249D29BE59DB453FAF17CFAD /* Mitr-Bold.ttf */; };
 		17AADE42B49243D7B197DA34 /* Mitr-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AC4DA850ED64BEAB69A619B /* Mitr-ExtraLight.ttf */; };
-		6A7C982916EB422F906C47D3 /* Mitr-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0F20BE346F643129D33BAF4 /* Mitr-Light.ttf */; };
-		C8E7A1AF71E54E1FA5435BAA /* Mitr-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7E53F30F2654166BEDB832A /* Mitr-Medium.ttf */; };
-		F68202E65D574BBFB91AB57D /* Mitr-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BDB48332FB24D398379BAC3 /* Mitr-Regular.ttf */; };
-		1004CE2B1CEA432BBC39D275 /* Mitr-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B21DDD89BC5B45A9BD7232E0 /* Mitr-SemiBold.ttf */; };
-		6C03403278E44F42B8903339 /* Trirong-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 840EF7D81B724EDBAD6D6982 /* Trirong-Black.ttf */; };
-		7336B0361D50488796A31689 /* Trirong-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61620B2F1E1A4134B2FD28A7 /* Trirong-BlackItalic.ttf */; };
-		6EA970AF463941FEA14FD07D /* Trirong-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3A0658B41314FE1819F3A10 /* Trirong-Bold.ttf */; };
-		5BBCDA40356348D4A2EB5B07 /* Trirong-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DDC2C2ABB6234AA9BB3140B7 /* Trirong-BoldItalic.ttf */; };
-		050AC6BC3F844A0985AC9834 /* Trirong-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE64C4CBF8CC4348A70BF498 /* Trirong-ExtraBold.ttf */; };
-		303005CCEF1947139B002E28 /* Trirong-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D527DC685B84BB0B413C1C8 /* Trirong-ExtraBoldItalic.ttf */; };
-		628EEAA33BD44959AFEE721F /* Trirong-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57051A132D73451E8E17C5C5 /* Trirong-ExtraLight.ttf */; };
-		C7DC19F0BB8B4609B29AFA1E /* Trirong-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4CB9733EA3D4CB2953C83EE /* Trirong-ExtraLightItalic.ttf */; };
-		CB5EF68D947C4495BF0C9551 /* Trirong-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9BD18E7686CA49039702AD15 /* Trirong-Italic.ttf */; };
-		272EE4CC10D241F8949FFA77 /* Trirong-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5EFC19F37EB407BB365F75D /* Trirong-Light.ttf */; };
-		FD65341AB3BD4F95A0CAAAAF /* Trirong-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A816A57B6F8E404FA9048309 /* Trirong-LightItalic.ttf */; };
-		891B2C068713415AA723402B /* Trirong-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25B64FA8AF934B34A0AFE633 /* Trirong-Medium.ttf */; };
 		20614E6D190347E0914E49B2 /* Trirong-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE67F6988FE24A03AB2A8A5C /* Trirong-MediumItalic.ttf */; };
 		21D9B7B731ED41009BD10430 /* Trirong-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D2CE9B9F50A245F9BD272EA5 /* Trirong-Regular.ttf */; };
-		57AD2373221141F89FEC7ED5 /* Trirong-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E5DDF784E2243C5915BB545 /* Trirong-SemiBold.ttf */; };
-		93A7F71ACE23473897F49A93 /* Trirong-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE0AE10C47348B1B17C2D45 /* Trirong-SemiBoldItalic.ttf */; };
-		69BA8D3850BB434785B7FB82 /* Trirong-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3BAF15C22B9547DB91A10210 /* Trirong-Thin.ttf */; };
+		272EE4CC10D241F8949FFA77 /* Trirong-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5EFC19F37EB407BB365F75D /* Trirong-Light.ttf */; };
+		303005CCEF1947139B002E28 /* Trirong-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D527DC685B84BB0B413C1C8 /* Trirong-ExtraBoldItalic.ttf */; };
 		3E38A7676EF74E50ADC0A258 /* Trirong-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F98483048AA412786238E40 /* Trirong-ThinItalic.ttf */; };
+		57AD2373221141F89FEC7ED5 /* Trirong-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E5DDF784E2243C5915BB545 /* Trirong-SemiBold.ttf */; };
+		5BBCDA40356348D4A2EB5B07 /* Trirong-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DDC2C2ABB6234AA9BB3140B7 /* Trirong-BoldItalic.ttf */; };
+		628EEAA33BD44959AFEE721F /* Trirong-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57051A132D73451E8E17C5C5 /* Trirong-ExtraLight.ttf */; };
+		69BA8D3850BB434785B7FB82 /* Trirong-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3BAF15C22B9547DB91A10210 /* Trirong-Thin.ttf */; };
+		6A7C982916EB422F906C47D3 /* Mitr-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0F20BE346F643129D33BAF4 /* Mitr-Light.ttf */; };
+		6C03403278E44F42B8903339 /* Trirong-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 840EF7D81B724EDBAD6D6982 /* Trirong-Black.ttf */; };
+		6EA970AF463941FEA14FD07D /* Trirong-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3A0658B41314FE1819F3A10 /* Trirong-Bold.ttf */; };
+		7336B0361D50488796A31689 /* Trirong-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61620B2F1E1A4134B2FD28A7 /* Trirong-BlackItalic.ttf */; };
+		7699B88040F8A987B510C191 /* libPods-AwesomeTSProject-AwesomeTSProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-AwesomeTSProject-AwesomeTSProjectTests.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		891B2C068713415AA723402B /* Trirong-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25B64FA8AF934B34A0AFE633 /* Trirong-Medium.ttf */; };
+		93A7F71ACE23473897F49A93 /* Trirong-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE0AE10C47348B1B17C2D45 /* Trirong-SemiBoldItalic.ttf */; };
+		C7DC19F0BB8B4609B29AFA1E /* Trirong-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4CB9733EA3D4CB2953C83EE /* Trirong-ExtraLightItalic.ttf */; };
+		C8E7A1AF71E54E1FA5435BAA /* Mitr-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7E53F30F2654166BEDB832A /* Mitr-Medium.ttf */; };
+		CB5EF68D947C4495BF0C9551 /* Trirong-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9BD18E7686CA49039702AD15 /* Trirong-Italic.ttf */; };
+		E5ECBF56D42A43928F163CB5 /* Mitr-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 249D29BE59DB453FAF17CFAD /* Mitr-Bold.ttf */; };
+		F68202E65D574BBFB91AB57D /* Mitr-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BDB48332FB24D398379BAC3 /* Mitr-Regular.ttf */; };
+		FD65341AB3BD4F95A0CAAAAF /* Trirong-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A816A57B6F8E404FA9048309 /* Trirong-LightItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,37 +61,37 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = AwesomeTSProject/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AwesomeTSProject/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-AwesomeTSProject-AwesomeTSProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AwesomeTSProject-AwesomeTSProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		249D29BE59DB453FAF17CFAD /* Mitr-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Mitr-Bold.ttf"; path = "../src/assets/fonts/Mitr-Bold.ttf"; sourceTree = "<group>"; };
+		25B64FA8AF934B34A0AFE633 /* Trirong-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Trirong-Medium.ttf"; path = "../src/assets/fonts/Trirong-Medium.ttf"; sourceTree = "<group>"; };
+		3AC4DA850ED64BEAB69A619B /* Mitr-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Mitr-ExtraLight.ttf"; path = "../src/assets/fonts/Mitr-ExtraLight.ttf"; sourceTree = "<group>"; };
+		3AE0AE10C47348B1B17C2D45 /* Trirong-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Trirong-SemiBoldItalic.ttf"; path = "../src/assets/fonts/Trirong-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-AwesomeTSProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeTSProject.debug.xcconfig"; path = "Target Support Files/Pods-AwesomeTSProject/Pods-AwesomeTSProject.debug.xcconfig"; sourceTree = "<group>"; };
+		3BAF15C22B9547DB91A10210 /* Trirong-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Trirong-Thin.ttf"; path = "../src/assets/fonts/Trirong-Thin.ttf"; sourceTree = "<group>"; };
+		57051A132D73451E8E17C5C5 /* Trirong-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Trirong-ExtraLight.ttf"; path = "../src/assets/fonts/Trirong-ExtraLight.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-AwesomeTSProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeTSProject.release.xcconfig"; path = "Target Support Files/Pods-AwesomeTSProject/Pods-AwesomeTSProject.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-AwesomeTSProject-AwesomeTSProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeTSProject-AwesomeTSProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-AwesomeTSProject-AwesomeTSProjectTests/Pods-AwesomeTSProject-AwesomeTSProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5BDB48332FB24D398379BAC3 /* Mitr-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Mitr-Regular.ttf"; path = "../src/assets/fonts/Mitr-Regular.ttf"; sourceTree = "<group>"; };
+		5D527DC685B84BB0B413C1C8 /* Trirong-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Trirong-ExtraBoldItalic.ttf"; path = "../src/assets/fonts/Trirong-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-AwesomeTSProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AwesomeTSProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E5DDF784E2243C5915BB545 /* Trirong-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Trirong-SemiBold.ttf"; path = "../src/assets/fonts/Trirong-SemiBold.ttf"; sourceTree = "<group>"; };
+		61620B2F1E1A4134B2FD28A7 /* Trirong-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Trirong-BlackItalic.ttf"; path = "../src/assets/fonts/Trirong-BlackItalic.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = AwesomeTSProject/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		840EF7D81B724EDBAD6D6982 /* Trirong-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Trirong-Black.ttf"; path = "../src/assets/fonts/Trirong-Black.ttf"; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-AwesomeTSProject-AwesomeTSProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeTSProject-AwesomeTSProjectTests.release.xcconfig"; path = "Target Support Files/Pods-AwesomeTSProject-AwesomeTSProjectTests/Pods-AwesomeTSProject-AwesomeTSProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		9BD18E7686CA49039702AD15 /* Trirong-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Trirong-Italic.ttf"; path = "../src/assets/fonts/Trirong-Italic.ttf"; sourceTree = "<group>"; };
+		9F98483048AA412786238E40 /* Trirong-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Trirong-ThinItalic.ttf"; path = "../src/assets/fonts/Trirong-ThinItalic.ttf"; sourceTree = "<group>"; };
+		A816A57B6F8E404FA9048309 /* Trirong-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Trirong-LightItalic.ttf"; path = "../src/assets/fonts/Trirong-LightItalic.ttf"; sourceTree = "<group>"; };
+		B21DDD89BC5B45A9BD7232E0 /* Mitr-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Mitr-SemiBold.ttf"; path = "../src/assets/fonts/Mitr-SemiBold.ttf"; sourceTree = "<group>"; };
+		B4CB9733EA3D4CB2953C83EE /* Trirong-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Trirong-ExtraLightItalic.ttf"; path = "../src/assets/fonts/Trirong-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		B5EFC19F37EB407BB365F75D /* Trirong-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Trirong-Light.ttf"; path = "../src/assets/fonts/Trirong-Light.ttf"; sourceTree = "<group>"; };
+		C7E53F30F2654166BEDB832A /* Mitr-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Mitr-Medium.ttf"; path = "../src/assets/fonts/Mitr-Medium.ttf"; sourceTree = "<group>"; };
+		D2CE9B9F50A245F9BD272EA5 /* Trirong-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Trirong-Regular.ttf"; path = "../src/assets/fonts/Trirong-Regular.ttf"; sourceTree = "<group>"; };
+		D3A0658B41314FE1819F3A10 /* Trirong-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Trirong-Bold.ttf"; path = "../src/assets/fonts/Trirong-Bold.ttf"; sourceTree = "<group>"; };
+		DDC2C2ABB6234AA9BB3140B7 /* Trirong-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Trirong-BoldItalic.ttf"; path = "../src/assets/fonts/Trirong-BoldItalic.ttf"; sourceTree = "<group>"; };
+		DE64C4CBF8CC4348A70BF498 /* Trirong-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Trirong-ExtraBold.ttf"; path = "../src/assets/fonts/Trirong-ExtraBold.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		249D29BE59DB453FAF17CFAD /* Mitr-Bold.ttf */ = {isa = PBXFileReference; name = "Mitr-Bold.ttf"; path = "../src/assets/fonts/Mitr-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		3AC4DA850ED64BEAB69A619B /* Mitr-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Mitr-ExtraLight.ttf"; path = "../src/assets/fonts/Mitr-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		F0F20BE346F643129D33BAF4 /* Mitr-Light.ttf */ = {isa = PBXFileReference; name = "Mitr-Light.ttf"; path = "../src/assets/fonts/Mitr-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		C7E53F30F2654166BEDB832A /* Mitr-Medium.ttf */ = {isa = PBXFileReference; name = "Mitr-Medium.ttf"; path = "../src/assets/fonts/Mitr-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		5BDB48332FB24D398379BAC3 /* Mitr-Regular.ttf */ = {isa = PBXFileReference; name = "Mitr-Regular.ttf"; path = "../src/assets/fonts/Mitr-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B21DDD89BC5B45A9BD7232E0 /* Mitr-SemiBold.ttf */ = {isa = PBXFileReference; name = "Mitr-SemiBold.ttf"; path = "../src/assets/fonts/Mitr-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		840EF7D81B724EDBAD6D6982 /* Trirong-Black.ttf */ = {isa = PBXFileReference; name = "Trirong-Black.ttf"; path = "../src/assets/fonts/Trirong-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		61620B2F1E1A4134B2FD28A7 /* Trirong-BlackItalic.ttf */ = {isa = PBXFileReference; name = "Trirong-BlackItalic.ttf"; path = "../src/assets/fonts/Trirong-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		D3A0658B41314FE1819F3A10 /* Trirong-Bold.ttf */ = {isa = PBXFileReference; name = "Trirong-Bold.ttf"; path = "../src/assets/fonts/Trirong-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		DDC2C2ABB6234AA9BB3140B7 /* Trirong-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Trirong-BoldItalic.ttf"; path = "../src/assets/fonts/Trirong-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		DE64C4CBF8CC4348A70BF498 /* Trirong-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Trirong-ExtraBold.ttf"; path = "../src/assets/fonts/Trirong-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		5D527DC685B84BB0B413C1C8 /* Trirong-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "Trirong-ExtraBoldItalic.ttf"; path = "../src/assets/fonts/Trirong-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		57051A132D73451E8E17C5C5 /* Trirong-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Trirong-ExtraLight.ttf"; path = "../src/assets/fonts/Trirong-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B4CB9733EA3D4CB2953C83EE /* Trirong-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "Trirong-ExtraLightItalic.ttf"; path = "../src/assets/fonts/Trirong-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		9BD18E7686CA49039702AD15 /* Trirong-Italic.ttf */ = {isa = PBXFileReference; name = "Trirong-Italic.ttf"; path = "../src/assets/fonts/Trirong-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B5EFC19F37EB407BB365F75D /* Trirong-Light.ttf */ = {isa = PBXFileReference; name = "Trirong-Light.ttf"; path = "../src/assets/fonts/Trirong-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		A816A57B6F8E404FA9048309 /* Trirong-LightItalic.ttf */ = {isa = PBXFileReference; name = "Trirong-LightItalic.ttf"; path = "../src/assets/fonts/Trirong-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		25B64FA8AF934B34A0AFE633 /* Trirong-Medium.ttf */ = {isa = PBXFileReference; name = "Trirong-Medium.ttf"; path = "../src/assets/fonts/Trirong-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		EE67F6988FE24A03AB2A8A5C /* Trirong-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Trirong-MediumItalic.ttf"; path = "../src/assets/fonts/Trirong-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		D2CE9B9F50A245F9BD272EA5 /* Trirong-Regular.ttf */ = {isa = PBXFileReference; name = "Trirong-Regular.ttf"; path = "../src/assets/fonts/Trirong-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		5E5DDF784E2243C5915BB545 /* Trirong-SemiBold.ttf */ = {isa = PBXFileReference; name = "Trirong-SemiBold.ttf"; path = "../src/assets/fonts/Trirong-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		3AE0AE10C47348B1B17C2D45 /* Trirong-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "Trirong-SemiBoldItalic.ttf"; path = "../src/assets/fonts/Trirong-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		3BAF15C22B9547DB91A10210 /* Trirong-Thin.ttf */ = {isa = PBXFileReference; name = "Trirong-Thin.ttf"; path = "../src/assets/fonts/Trirong-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		9F98483048AA412786238E40 /* Trirong-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Trirong-ThinItalic.ttf"; path = "../src/assets/fonts/Trirong-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EE67F6988FE24A03AB2A8A5C /* Trirong-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Trirong-MediumItalic.ttf"; path = "../src/assets/fonts/Trirong-MediumItalic.ttf"; sourceTree = "<group>"; };
+		F0F20BE346F643129D33BAF4 /* Mitr-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Mitr-Light.ttf"; path = "../src/assets/fonts/Mitr-Light.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +154,38 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		5FE899312FBE4FE1BAC0524F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				249D29BE59DB453FAF17CFAD /* Mitr-Bold.ttf */,
+				3AC4DA850ED64BEAB69A619B /* Mitr-ExtraLight.ttf */,
+				F0F20BE346F643129D33BAF4 /* Mitr-Light.ttf */,
+				C7E53F30F2654166BEDB832A /* Mitr-Medium.ttf */,
+				5BDB48332FB24D398379BAC3 /* Mitr-Regular.ttf */,
+				B21DDD89BC5B45A9BD7232E0 /* Mitr-SemiBold.ttf */,
+				840EF7D81B724EDBAD6D6982 /* Trirong-Black.ttf */,
+				61620B2F1E1A4134B2FD28A7 /* Trirong-BlackItalic.ttf */,
+				D3A0658B41314FE1819F3A10 /* Trirong-Bold.ttf */,
+				DDC2C2ABB6234AA9BB3140B7 /* Trirong-BoldItalic.ttf */,
+				DE64C4CBF8CC4348A70BF498 /* Trirong-ExtraBold.ttf */,
+				5D527DC685B84BB0B413C1C8 /* Trirong-ExtraBoldItalic.ttf */,
+				57051A132D73451E8E17C5C5 /* Trirong-ExtraLight.ttf */,
+				B4CB9733EA3D4CB2953C83EE /* Trirong-ExtraLightItalic.ttf */,
+				9BD18E7686CA49039702AD15 /* Trirong-Italic.ttf */,
+				B5EFC19F37EB407BB365F75D /* Trirong-Light.ttf */,
+				A816A57B6F8E404FA9048309 /* Trirong-LightItalic.ttf */,
+				25B64FA8AF934B34A0AFE633 /* Trirong-Medium.ttf */,
+				EE67F6988FE24A03AB2A8A5C /* Trirong-MediumItalic.ttf */,
+				D2CE9B9F50A245F9BD272EA5 /* Trirong-Regular.ttf */,
+				5E5DDF784E2243C5915BB545 /* Trirong-SemiBold.ttf */,
+				3AE0AE10C47348B1B17C2D45 /* Trirong-SemiBoldItalic.ttf */,
+				3BAF15C22B9547DB91A10210 /* Trirong-Thin.ttf */,
+				9F98483048AA412786238E40 /* Trirong-ThinItalic.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -196,38 +228,6 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
-		};
-		5FE899312FBE4FE1BAC0524F /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				249D29BE59DB453FAF17CFAD /* Mitr-Bold.ttf */,
-				3AC4DA850ED64BEAB69A619B /* Mitr-ExtraLight.ttf */,
-				F0F20BE346F643129D33BAF4 /* Mitr-Light.ttf */,
-				C7E53F30F2654166BEDB832A /* Mitr-Medium.ttf */,
-				5BDB48332FB24D398379BAC3 /* Mitr-Regular.ttf */,
-				B21DDD89BC5B45A9BD7232E0 /* Mitr-SemiBold.ttf */,
-				840EF7D81B724EDBAD6D6982 /* Trirong-Black.ttf */,
-				61620B2F1E1A4134B2FD28A7 /* Trirong-BlackItalic.ttf */,
-				D3A0658B41314FE1819F3A10 /* Trirong-Bold.ttf */,
-				DDC2C2ABB6234AA9BB3140B7 /* Trirong-BoldItalic.ttf */,
-				DE64C4CBF8CC4348A70BF498 /* Trirong-ExtraBold.ttf */,
-				5D527DC685B84BB0B413C1C8 /* Trirong-ExtraBoldItalic.ttf */,
-				57051A132D73451E8E17C5C5 /* Trirong-ExtraLight.ttf */,
-				B4CB9733EA3D4CB2953C83EE /* Trirong-ExtraLightItalic.ttf */,
-				9BD18E7686CA49039702AD15 /* Trirong-Italic.ttf */,
-				B5EFC19F37EB407BB365F75D /* Trirong-Light.ttf */,
-				A816A57B6F8E404FA9048309 /* Trirong-LightItalic.ttf */,
-				25B64FA8AF934B34A0AFE633 /* Trirong-Medium.ttf */,
-				EE67F6988FE24A03AB2A8A5C /* Trirong-MediumItalic.ttf */,
-				D2CE9B9F50A245F9BD272EA5 /* Trirong-Regular.ttf */,
-				5E5DDF784E2243C5915BB545 /* Trirong-SemiBold.ttf */,
-				3AE0AE10C47348B1B17C2D45 /* Trirong-SemiBoldItalic.ttf */,
-				3BAF15C22B9547DB91A10210 /* Trirong-Thin.ttf */,
-				9F98483048AA412786238E40 /* Trirong-ThinItalic.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
