@@ -12,6 +12,7 @@ import CustomDrawer from "../screens/components/custom_drawer";
 import { ChatBoxIcon, HomeIcon, MomentIcon, PersonIcon, SettingIcon } from "../utils/import/import_example";
 import { sc } from "../utils/import/import_options";
 import TabStack from "./tab_stack";
+import HomeStack from "./home_stack";
 
 
 const Drawer = createDrawerNavigator<AppStackParamList>();
@@ -29,7 +30,7 @@ const AppStack = () => {
           
           drawerActiveTintColor: "#fff",
         }} >
-      <Drawer.Screen name="TabStack" component={TabStack} options={{
+      <Drawer.Screen name="HomeStack" component={HomeStack} options={{
         drawerIcon: ({color}) => (
           <HomeIcon height={"100%"} width={"10%"} fill={color}/>
         ),

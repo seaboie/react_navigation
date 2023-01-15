@@ -18,6 +18,7 @@ export type OnboardingProps = NativeStackScreenProps<RootStackParamList, "Onboar
 
 export type AppStackParamList = {
     Home: undefined,
+    HomeStack: undefined,
     Profile: undefined,
     Message: undefined,
     Moment: undefined,
@@ -26,11 +27,16 @@ export type AppStackParamList = {
     TabStack: undefined,
 
     Cart: undefined,
-    Favorite: undefined
+    Favorite: undefined,
+
+    GameDetail: {title: string , id: string | undefined},
+
+    HomeTabs: undefined
 
 };
 
 export type HomeProps = NativeStackScreenProps<AppStackParamList, "Home">;
+export type HomeStackProps = NativeStackScreenProps<AppStackParamList, "HomeStack">;
 export type ProfileProps = NativeStackScreenProps<AppStackParamList, "Profile">;
 export type MessageProps = NativeStackScreenProps<AppStackParamList, "Message">;
 export type MomentProps = NativeStackScreenProps<AppStackParamList, "Moment">;
@@ -39,3 +45,5 @@ export type SettingProps = NativeStackScreenProps<AppStackParamList, "Setting">;
 export type TabStackProps = NativeStackScreenProps<AppStackParamList, "TabStack">;
 export type CartProps = NativeStackScreenProps<AppStackParamList, "Cart">;
 export type FavoriteProps = NativeStackScreenProps<AppStackParamList, "Favorite">;
+
+export type GameDetailProps = NativeStackScreenProps<AppStackParamList, "GameDetail">;

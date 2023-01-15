@@ -6,7 +6,8 @@ export type PlanGame = {
   subtitle: string,
   isFree: string,
   price?: string | undefined,
-  id?: string | undefined
+  id?: string | undefined,
+  onPress?(): void
 }
 
 export const sliderData: DataProp[] = [

@@ -88,6 +88,7 @@ const HomeScreen = ({ navigation, route }: HomeProps) => {
                                     poster={game.poster}
                                     subtitle={game.subtitle}
                                     title={game.title}
+                                    onPress={() => navigation.navigate("GameDetail", {title: game.title, id: game.id})}
                                 />
                             ))
                         }
@@ -100,6 +101,7 @@ const HomeScreen = ({ navigation, route }: HomeProps) => {
                                     title={game.title}
                                     subtitle={game.subtitle}
                                     price={game.price}
+                                    onPress={() => navigation.navigate("GameDetail", {id: game.id, title: game.title})}
                                 />
                             ))
                         }

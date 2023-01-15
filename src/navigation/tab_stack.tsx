@@ -6,6 +6,7 @@ import CartScreen from "../screens/app/cart_screen";
 import FavoriteScreen from "../screens/app/favorite_screen";
 import { AppStackParamList, TabStackProps } from "../type/type_root_stack_param_list";
 import { FavoriteIcon, HomeIcon, ShoppingBagIcon } from "../utils/import/import_example";
+import HomeStack from "./home_stack";
 
 const Tab = createBottomTabNavigator<AppStackParamList>();
 
