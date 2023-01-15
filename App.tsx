@@ -1,17 +1,18 @@
-import React, { Fragment } from "react";
-import { SafeAreaView, StatusBar, Text ,View} from 'react-native';
+import React, { } from "react";
 import OnboardingScreen from "./src/screens/app/onboarding_screen";
+import LoginScreen from "./src/screens/auth/login_screen";
 import { gbs } from "./src/utils/import/import_options";
+import { NavigationContainer } from "@react-navigation/native"
+import { SafeAreaProvider } from "react-native-safe-area-context"
+
 
 const App = () => {
-  return (  
-     <Fragment>
-       <SafeAreaView style={{ flex: 0, backgroundColor: '' }} />
-       <SafeAreaView style={{ flex: 1, backgroundColor: '' }}>
-         <StatusBar barStyle="dark-content" backgroundColor={"white"}/>
-         <OnboardingScreen />
-       </SafeAreaView>
-     </Fragment>
+  return (
+    <SafeAreaProvider>
+      <NavigationContainer>
+        <LoginScreen />
+      </NavigationContainer>
+    </SafeAreaProvider>
   );
 }
 
