@@ -1,5 +1,5 @@
 import React from "react";
-import { Alert, Button, Text ,View} from 'react-native';
+import { Alert, Button, StatusBar, Text ,View} from 'react-native';
 import { gbs } from "../../utils/import/import_options";
 import { SafeAreaProvider, useSafeAreaInsets } from "react-native-safe-area-context"
 

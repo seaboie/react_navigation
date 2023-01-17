@@ -1,23 +1,49 @@
-import React from "react";
-import { StyleSheet, Text, TouchableHighlight, View } from 'react-native';
-import { gbs } from "./utils/import/import_options";
+import React, { useEffect, useState } from "react";
+import { useAsyncStorage } from "@react-native-async-storage/async-storage"
+import OnboardingScreen from "./screens/app/onboarding_screen";
+import { SafeAreaProvider } from "react-native-safe-area-context";
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import { RootStackParamList } from "./type/type_props";
+import AuthStackScreen from "./navigations/auth/auth_stack_screen";
+
+const Stack = createNativeStackNavigator<RootStackParamList>();
 
 const RootScreen = () => {
-  return (
-    <View style={[gbs.center, styles.container, { flex: 1 }]} >
+  const [isFirstLaunch, setIsFirstLaunch] = useState<boolean>(true);
 
-     
-    </View>
+  const { getItem } = useAsyncStorage("firstLaunch");
+
+  const readItem = async () => {
+    const item = await getItem();
+    if (item === null) {
+      setIsFirstLaunch(true);
+    } else {
+      setIsFirstLaunch(false);
+    }
+  }
+
+  useEffect(() => {
+    readItem();
+
+  }, [])
+
+  return (
+    isFirstLaunch
+      ? (
+          <Stack.Navigator screenOptions={{ headerShown: false }}>
+            <Stack.Screen name="Onboarding" component={OnboardingScreen} />
+            <Stack.Screen name="Auth" component={AuthStackScreen} />
+          </Stack.Navigator>
+      )
+      : (
+          <Stack.Navigator>
+            <Stack.Screen name="Auth" component={AuthStackScreen} />
+          </Stack.Navigator>
+      )
   );
 }
 
 export default RootScreen;
-
-const styles = StyleSheet.create({
-  container: {
-    backgroundColor: "#2c3e50"
-  }
-});
 
 
 

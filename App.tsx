@@ -1,19 +1,19 @@
-import React, { } from "react";
-import OnboardingScreen from "./src/screens/app/onboarding_screen";
-import LoginScreen from "./src/screens/auth/login_screen";
-import { gbs } from "./src/utils/import/import_options";
+import React from "react";
 import { NavigationContainer } from "@react-navigation/native"
-import { SafeAreaProvider } from "react-native-safe-area-context"
-
+import RootScreen from "./src/root_screen";
+import { SafeAreaProvider } from "react-native-safe-area-context";
 
 const App = () => {
+
   return (
-    <SafeAreaProvider>
-      <NavigationContainer>
-        <LoginScreen />
-      </NavigationContainer>
-    </SafeAreaProvider>
+
+    <NavigationContainer>
+      <SafeAreaProvider>
+        <RootScreen />
+      </SafeAreaProvider>
+    </NavigationContainer>
   );
+
 }
 
 export default App;
