@@ -36,7 +36,7 @@ const RootScreen = () => {
           </Stack.Navigator>
       )
       : (
-          <Stack.Navigator>
+          <Stack.Navigator screenOptions={{headerShown: false}}>
             <Stack.Screen name="Auth" component={AuthStackScreen} />
           </Stack.Navigator>
       )
